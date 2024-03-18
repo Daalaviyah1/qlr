@@ -1,0 +1,72 @@
+body{
+    display: flex;
+    background: hsl(30, 38%, 92%);
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+
+}
+.general{
+    display: flex;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    overflow: hidden;
+    border-radius: 10px;
+}
+.first{
+    width: 300px;
+    height: 500px;
+}
+.second{
+    width: 300px;
+    height: 500px;
+    background: white;
+    padding-left: 15px;
+    padding-right: 15px;
+    justify-content: center;
+    flex-direction: column;
+    display: flex;
+    align-content: center;
+    align-items: center;
+
+}
+.price{
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+.btn{
+    background: hsl(158, 36%, 37%);
+    color: hsl(0, 0%, 100%);
+    padding: 10px 20px 10px 20px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+       
+}
+.btn:hover{
+    background: hsl(212, 21%, 14%);
+
+}
+h2{
+    font-weight: 700px;
+}
+img.images-card{
+    width: 300px;
+    height: 500px;
+
+}
+.money{
+    color: hsl(158, 36%, 37%);
+
+}
+p{
+    color: hsl(228, 12%, 48%);
+}
+strike{
+    color:hsl(228, 12%, 48%);
+}
